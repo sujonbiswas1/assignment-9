@@ -1,23 +1,3 @@
-const amount = document.getElementById('amount');
-amount.style.display = "none"
-const loginBtn = document.getElementById('loginBtn');
-loginBtn.addEventListener('click',()=>{
-     const username = document.getElementById('username').value;
-     const password = document.getElementById('password').value;
-     if(username==''){
-          alert('sorry enter your username')
-     }
-     else if(password==''){
-          alert('sorry enter your password')
-     }
-     else{
-          const login = document.getElementById('login');
-          login.style.display = 'none';
-          amount.style.display = 'block'
-
-     }
-     
-})
 
 // deposit section start here
 
